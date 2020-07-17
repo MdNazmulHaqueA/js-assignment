@@ -51,7 +51,7 @@ c. 20 and above 10 feet high
 Function Name: brickCalculator
 */
 
-//Consider 0 as a ground floor
+//Consider 0 as ground floor
 function brickCalculator(floorCount){
     if(floorCount<0){
         return "Lowest number of floor value is 0."
@@ -129,5 +129,5 @@ function tinyFriend(friends){
         return tinyNameSorted[0];
     }
 }
-var friends = tinyFriend(["Nazmul","Emon","Parul","Moni","Salma","Aru","Tanni","Ayman",,""," ","  Nazmul   Haque ","Shuvro","Arif"]);
+var friends = tinyFriend(["Nazmul","Emon","Parul","Moni","Aru","Tanni","Ayman",,""," ","  Nazmul   Haq ","Arif"]);
 console.log(friends);
